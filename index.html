@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5</title>
+    <style>
+        table, th, td{
+            border: 2px solid rgb(1, 1, 226);
+            border-radius: 5px;
+            border-collapse: collapse;
+            padding: 4px;
+        }
+        label{
+            color: rgb(0, 255, 0);
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <!--ordered list in roman numerals-->
+    <div class="list">
+        <ol type="i">
+            <li>Orange</li>
+            <li>Mango</li>
+            <li>Apple</li>
+            <li>Tomato</li>
+            <li>Potato</li>
+        </ol>
+    </div>
+    
+    <!--external image from pexels.com-->
+
+    <img src="https://images.pexels.com/photos/27956127/pexels-photo-27956127/free-photo-of-black-and-white-castle-black-amp-white.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="https://images.pexels.com/photos/31886202/pexels-photo-31886202/free-photo-of-black-and-white-portrait-of-pensive-woman.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="width: 400px; height: 250px;">
+
+    <br>
+    <br>
+    <div class="table">
+        <table>
+            <thead>
+                <tr>
+                    <th>name</th>
+                    <th>address</th>
+                    <th>mobile</th>
+                    <th>emails</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>20100 Nakuru</td>
+                    <td>+23456238729</td>
+                    <td>doe12@oemail.com</td>
+                </tr>
+                <tr>
+                    <td>Ivy Mary</td>
+                    <td>20123 South Afrika</td>
+                    <td>+212456238729</td>
+                    <td>marymary@semail.com</td>
+                </tr>
+                <tr>
+                    <td>Christine Leperes</td>
+                    <td>100 Newyork</td>
+                    <td>+2017379130-4</td>
+                    <td>chris098@gemail.com</td>
+                </tr>
+                <tr>
+                    <td>Derrick Omondi</td>
+                    <td>8084 Delhi</td>
+                    <td>+2523823494</td>
+                    <td>dede#@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Cate Lavin</td>
+                    <td>222221 Germany</td>
+                    <td>+23434177157</td>
+                    <td>lavincate@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Pauline Wambui</td>
+                    <td>20100 Seychelles</td>
+                    <td>+172538452678</td>
+                    <td>PaulineWambui24@oemail.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <br>
+    </div>
+
+    <form action="">
+        <h3 style="color: rgb(0, 224, 0);">Fill In This Form</h3>
+        <label for="name">Name:</label>
+        <br>
+        <input type="text" placeholder="John Doe" required>
+        <br>
+        <label for="email" >Email:</label>
+        <br>
+        <input type="text" placeholder="example@gmail.com" required>
+        <br>
+        <label for="password" >Passoword:</label>
+        <br>
+        <input type="password" placeholder="enter strong password" required>
+        <br>
+        <label for="date">Date:</label>
+        <br>
+        <input type="date" required>
+        <br>
+        <br>
+        <!--radio for gender-->
+        <label for="gender">Gender:</label>
+        <br>
+        <input type="checkbox">M
+        <br>
+        <input type="checkbox">F
+        <br>
+        <input type="checkbox">Prefer not to say.
+        <br>
+        <br>
+        <label for="gender" style="color: brown;">Select all the areas of Interest:</label>
+        <br>
+        <div class="select">
+            <input type="radio">AI and ML
+            <br>
+            <input type="radio">BlockChain
+            <br>
+            <input type="radio">Software Engineering
+            <br>
+            <input type="radio">Web Development
+            <br>
+            <input type="radio">Front End Developer
+            <br>
+            <input type="radio">Backend Developer
+            <br>
+            <input type="radio">Full Stack Developer
+            <br>
+            <input type="radio">None
+            <br>
+            <br>
+        </div>
+        <label for="select">Who are You?</label>
+        <br>
+        <select name="person" id="persona">
+            <option value="Admin"><a href="#">Casual Worker</a></option>
+            <option value="Admin"><a href="#">Admin</a></option>
+            <option value="Admin"><a href="#">Developer</a></option>
+            <option value="Admin"><a href="#">Student</a></option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" value="Submit" style="background-color: rgb(0, 110, 236); color: white; padding: 5px; cursor: pointer; width: 75px; height: 35px;">
+    </form>
+</body>
+</html>
